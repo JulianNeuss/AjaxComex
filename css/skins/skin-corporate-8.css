@@ -1,37 +1,45 @@
 a {
-	color: #099CF4;
+	/*color: #099CF4;*/
+	color: #212529;
 }
 
 a:hover {
-	color: #20a6f7;
+	/*color: #20a6f7;*/
+	color: #212529;
 }
 
 a:focus {
-	color: #20a6f7;
+	/*color: #20a6f7;*/
+	color: #212529;
+
 }
 
 a:active {
-	color: #088cdb;
+	/*color: #088cdb;*/
+	color: #212529;
+
 }
 
 html .text-color-primary,
 html .text-primary {
-	color: #099CF4 !important;
+	/*color: #099CF4 !important;*/
+	color: #212529 !important;
+
 }
 
 html .text-color-hover-primary:hover,
 html .text-hover-primary:hover {
-	color: #099CF4 !important;
+	color: #212529 !important;
 }
 
 html .text-color-secondary,
 html .text-secondary {
-	color: #0C61E0 !important;
+	color: #212529 !important;
 }
 
 html .text-color-hover-secondary:hover,
 html .text-hover-secondary:hover {
-	color: #0C61E0 !important;
+	color: #212529 !important;
 }
 
 html .text-color-tertiary,
@@ -76,32 +84,32 @@ html .text-hover-light:hover {
 
 html .svg-fill-color-primary svg path,
 html .svg-fill-color-primary svg rect {
-	fill: #099CF4 !important;
+	fill: #212529 !important;
 }
 
 html .svg-stroke-color-primary svg path,
 html .svg-stroke-color-primary svg rect {
-	stroke: #099CF4 !important;
+	stroke: #212529 !important;
 }
 
 html .svg-fill-color-secondary svg path,
 html .svg-fill-color-secondary svg rect {
-	fill: #0C61E0 !important;
+	fill: #212529 !important;
 }
 
 html .svg-stroke-color-secondary svg path,
 html .svg-stroke-color-secondary svg rect {
-	stroke: #0C61E0 !important;
+	stroke: #212529 !important;
 }
 
 html .svg-fill-color-tertiary svg path,
 html .svg-fill-color-tertiary svg rect {
-	fill: #2baab1 !important;
+	fill: #212529 !important;
 }
 
 html .svg-stroke-color-tertiary svg path,
 html .svg-stroke-color-tertiary svg rect {
-	stroke: #2baab1 !important;
+	stroke: #212529 !important;
 }
 
 html .svg-fill-color-quaternary svg path,
@@ -135,35 +143,35 @@ html .svg-stroke-color-light svg rect {
 }
 
 .gradient-text-color {
-	color: #099CF4;
-	background: linear-gradient(to bottom right, #099CF4, #0C61E0);
-	background-image: linear-gradient(to right, #099CF4, #0C61E0);
+	color: #212529;
+	background: linear-gradient(to bottom right, #202529, #000000);
+	background-image: linear-gradient(to right, #202529, #000000);
 }
 
 html .bg-color-primary,
 html .bg-primary {
-	background-color: #099CF4 !important;
+	background-color: #212529 !important;
 }
 
 html .bg-color-hover-primary:hover,
 html .bg-hover-primary:hover {
-	background-color: #099CF4 !important;
+	background-color: #212529 !important;
 }
 
 html .bg-color-after-primary:after {
-	background-color: #099CF4 !important;
+	background-color: #212529 !important;
 }
 
 html .bg-color-hover-after-primary:after:hover {
-	background-color: #099CF4 !important;
+	background-color: #212529 !important;
 }
 
 html .bg-color-before-primary:before {
-	background-color: #099CF4 !important;
+	background-color: #212529 !important;
 }
 
 html .bg-color-hover-before-primary:before:hover {
-	background-color: #099CF4 !important;
+	background-color: #212529 !important;
 }
 
 html .bg-color-secondary,
@@ -848,9 +856,9 @@ html .btn-primary-scale-2.active {
 
 html .show > .btn-primary.dropdown-toggle,
 html .show > .btn-primary-scale-2.dropdown-toggle {
-	background-color: #0884cf !important;
+	background-color: #212529 !important;
 	background-image: none !important;
-	border-color: #077dc3 #077dc3 #055d92 !important;
+	border-color: #212529 #212529 #212529 !important;
 }
 
 html .btn-secondary {
@@ -917,9 +925,9 @@ html .btn-secondary-scale-2.active {
 
 html .show > .btn-secondary.dropdown-toggle,
 html .show > .btn-secondary-scale-2.dropdown-toggle {
-	background-color: #0a51bc !important;
+	background-color: #212529 !important;
 	background-image: none !important;
-	border-color: #094cb0 #094cb0 #07377f !important;
+	border-color: #212529 #212529 #212529 !important;
 }
 
 html .btn-tertiary {
@@ -986,9 +994,9 @@ html .btn-tertiary-scale-2.active {
 
 html .show > .btn-tertiary.dropdown-toggle,
 html .show > .btn-tertiary-scale-2.dropdown-toggle {
-	background-color: #248c92 !important;
+	background-color: #212529 !important;
 	background-image: none !important;
-	border-color: #218388 #218388 #175b5f !important;
+	border-color: #212529 #212529 #212529 !important;
 }
 
 html .btn-quaternary {
@@ -1232,8 +1240,8 @@ html .btn-outline.btn-primary.active {
 
 html .show > .btn-outline.btn-primary.dropdown-toggle {
 	color: #FFF !important;
-	background-color: #099CF4 !important;
-	border-color: #099CF4 !important;
+	background-color: #212529 !important;
+	border-color: #212529 !important;
 }
 
 html .btn-outline.btn-secondary {
@@ -1270,8 +1278,8 @@ html .btn-outline.btn-secondary.active {
 
 html .show > .btn-outline.btn-secondary.dropdown-toggle {
 	color: #FFF !important;
-	background-color: #0C61E0 !important;
-	border-color: #0C61E0 !important;
+	background-color: #212529 !important;
+	border-color: #212529 !important;
 }
 
 html .btn-outline.btn-tertiary {
@@ -1308,8 +1316,8 @@ html .btn-outline.btn-tertiary.active {
 
 html .show > .btn-outline.btn-tertiary.dropdown-toggle {
 	color: #FFF !important;
-	background-color: #2baab1 !important;
-	border-color: #2baab1 !important;
+	background-color: #212529 !important;
+	border-color: #212529 !important;
 }
 
 html .btn-outline.btn-quaternary {
@@ -1429,52 +1437,52 @@ html .show > .btn-outline.btn-light.dropdown-toggle {
 html .btn-with-arrow.btn-primary {
 	background-color: transparent;
 	border-color: transparent;
-	color: #099CF4;
+	color: #212529;
 }
 
 html .btn-with-arrow.btn-primary:active {
 	background-color: transparent !important;
 	border-color: transparent !important;
-	color: #099CF4 !important;
+	color: #212529 !important;
 }
 
 html .btn-with-arrow.btn-primary span {
-	background-color: #099CF4;
-	box-shadow: 2px 3px 18px -3px #099CF4;
+	background-color: #212529;
+	box-shadow: 2px 3px 18px -3px #212529;
 }
 
 html .btn-with-arrow.btn-primary.btn-outline {
-	border-color: #099CF4 !important;
+	border-color: #212529 !important;
 }
 
 html .btn-with-arrow.btn-primary.btn-outline:hover span {
-	background-color: #20a6f7 !important;
+	background-color: #212529 !important;
 	box-shadow: none;
 }
 
 html .btn-with-arrow.btn-secondary {
 	background-color: transparent;
 	border-color: transparent;
-	color: #0C61E0;
+	color: #212529;
 }
 
 html .btn-with-arrow.btn-secondary:active {
 	background-color: transparent !important;
 	border-color: transparent !important;
-	color: #0C61E0 !important;
+	color: #212529 !important;
 }
 
 html .btn-with-arrow.btn-secondary span {
-	background-color: #0C61E0;
-	box-shadow: 2px 3px 18px -3px #0C61E0;
+	background-color: #212529;
+	box-shadow: 2px 3px 18px -3px #212529;
 }
 
 html .btn-with-arrow.btn-secondary.btn-outline {
-	border-color: #0C61E0 !important;
+	border-color: #212529 !important;
 }
 
 html .btn-with-arrow.btn-secondary.btn-outline:hover span {
-	background-color: #136df2 !important;
+	background-color: #212529 !important;
 	box-shadow: none;
 }
 

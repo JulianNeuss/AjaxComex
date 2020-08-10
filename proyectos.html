@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>AjaxComex</title>
+    <title>AjaxComex - Grandes Proyectos de Inversión</title>
 
     <meta name="keywords" content="HTML5 Template" />
     <meta name="description" content="Porto - Responsive HTML5 Template">
@@ -53,6 +53,9 @@
 
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
+
+    <link rel="stylesheet" href="AjaxComexStyle.css">
+
 
 </head>
 <body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
@@ -788,7 +791,7 @@
                                                 <!--														</ul>-->
                                             </li>
                                             <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="intervencionesATerceros.html">
+                                                <a class="dropdown-item dropdown-toggle " href="intervencionesATerceros.html">
                                                     Intervenciones a terceros
                                                 </a>
                                                 <!--														<ul class="dropdown-menu">-->
@@ -981,70 +984,79 @@
 
     <div role="main" class="main">
 
-        <section class="section bg-color-grey-scale-1 section-height-3 section-no-border appear-animation" data-appear-animation="fadeIn">
+        <section class="section bg-color-grey-scale-1 section-no-border appear-animation" data-appear-animation="fadeIn">
             <div class="container">
                 <div class="row">
                     <div class="col text-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
                         <h2 class="font-weight-normal text-6 mb-5">Grandes proyectos de <strong class="font-weight-extra-bold">inversión</strong></h2>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="row">
-                    <div class="col-lg-2 mb-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
+        <section id="services1">
+            <div class="container inner-sm" style="padding-bottom: 0;">
+                <!--<h1>Nuestros servicios</h1>-->
+                <div class="row" id="scrollhere">
+                    <div class="col-xs-12 aos-init aos-animate" data-aos="fade-up">
+                        <div class="tabs tabs-services tabs-circle-top tab-container" data-easytabs="true">
+                            <ul style="display:none" class="etabs text-center">
+                                <li class="tab active">
+                                    <a href="#tab-1" onclick="smoothScroll('services1')" class="active">
+                                        <div><i class="icon-code"></i></div>Certificaciones</a>
+                                </li>
+                            </ul>
+                            <div class="panel-container">
+                                <div class="tab-content active" id="tab-1" style="display: block;">
+                                    <!-- Main Contain -->
+                                    <div class="main-contain">
 
-                    </div>
-                    <div class="col-lg-5 mb-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400">
-                        <div class="feature-box feature-box-secondary feature-box-style-4">
-                            <div class="feature-box-icon">
-                                <i class="icon-user-following icons text-color-primary"></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="mb-2 font-weight-bold">Gestion del proyecto</h4>
-                                <p>Desarrollo de proveedores nacionales y extranjeros<br>
-                                    Encuadre y Diseño de la carpeta tecnica con ingenieros especializados
-                                </p>
+                                        <!-- Dock Contain -->
+                                        <div class="dock">
+                                            <!-- Dock Nav -->
+                                            <div class="dock-nav">
+                                                        <div style="display: flex">
+                                                            <div class="divs">
+                                                            </div>
+                                                            <p id="texto-LCM"><strong>Resolución 256/00</strong><br>
+                                                                Incentivo promocional para alentar las inversiones y aumentar la competitividad de productos industrializados a través de la incorporación de tecnología de ultima generación.<br>
+                                                                Para ello se establece el pago del 0% en concepto de derechos de importación para todos los bienes nuevos que formen parte de nuevas líneas de producción completas y autónomas, y su excepción al pago de tasa de comprobación de destino.<br>
+                                                            </p>
+                                                        </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 mb-4 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="200">
-                        <div class="feature-box feature-box-secondary feature-box-style-4">
-                            <div class="feature-box-icon">
-                                <i class="icon-layers icons text-color-primary"></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="mb-2 font-weight-bold">Presentación de la documentación</h4>
-                                <p>Procesar información solicitada.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>
 
         <footer id="footer" class="mt-0">
             <div class="container">
-                <div class="footer-ribbon">
-                    <span>Get in Touch</span>
-                </div>
+                <!--						<div class="footer-ribbon">-->
+                <!--							<span>Get in Touch</span>-->
+                <!--						</div>-->
                 <div class="row py-5 my-4">
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                        <h5 class="text-3 mb-3">NEWSLETTER</h5>
-                        <p class="pr-1">Keep up on our always evolving product features and technology. Enter your e-mail address and subscribe to our newsletter.</p>
-                        <div class="alert alert-success d-none" id="newsletterSuccess">
-                            <strong>Success!</strong> You've been added to our email list.
-                        </div>
-                        <div class="alert alert-danger d-none" id="newsletterError"></div>
-                        <form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mr-4 mb-3 mb-md-0">
-                            <div class="input-group input-group-rounded">
-                                <input class="form-control form-control-sm bg-light" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
-                                <span class="input-group-append">
-										<button class="btn btn-light text-color-dark" type="submit"><strong>GO!</strong></button>
-									</span>
-                            </div>
-                        </form>
-                    </div>
+                    <!--							<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">-->
+                    <!--								<h5 class="text-3 mb-3">NEWSLETTER</h5>-->
+                    <!--								<p class="pr-1">Keep up on our always evolving product features and technology. Enter your e-mail address and subscribe to our newsletter.</p>-->
+                    <!--								<div class="alert alert-success d-none" id="newsletterSuccess">-->
+                    <!--									<strong>Success!</strong> You've been added to our email list.-->
+                    <!--								</div>-->
+                    <!--								<div class="alert alert-danger d-none" id="newsletterError"></div>-->
+                    <!--								<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mr-4 mb-3 mb-md-0">-->
+                    <!--									<div class="input-group input-group-rounded">-->
+                    <!--										<input class="form-control form-control-sm bg-light" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">-->
+                    <!--										<span class="input-group-append">-->
+                    <!--										<button class="btn btn-light text-color-dark" type="submit"><strong>GO!</strong></button>-->
+                    <!--									</span>-->
+                    <!--									</div>-->
+                    <!--								</form>-->
+                    <!--							</div>-->
                     <!--						<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">-->
                     <!--							<h5 class="text-3 mb-3">LATEST TWEETS</h5>-->
                     <!--							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': 'oklerthemes', 'count': 2}">-->
@@ -1053,20 +1065,20 @@
                     <!--						</div>-->
                     <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                         <div class="contact-details">
-                            <h5 class="text-3 mb-3">CONTACT US</h5>
+                            <h5 class="text-3 mb-3">CONTACTO</h5>
                             <ul class="list list-icons list-icons-lg">
-                                <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">234 Street Name, City Name</p></li>
-                                <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:8001234567">(800) 123-4567</a></p></li>
-                                <li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:mail@example.com">mail@example.com</a></p></li>
+                                <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">1515 Olazábal, CABA, Argentina</p></li>
+                                <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:1125811010">+54 9 11 2581-1010</a></p></li>
+                                <li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:marian@ajaxcomex.com">marian@ajaxcomex.com</a></p></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-2">
-                        <h5 class="text-3 mb-3">FOLLOW US</h5>
+                        <h5 class="text-3 mb-3">SEGUINOS</h5>
                         <ul class="social-icons">
-                            <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            <!--									<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>-->
+                            <li class="social-icons-instagram"><a href="https://instagram.com/ajax.comex?igshid=zqkgxodm5g9w" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li class="social-icons-linkedin"><a href="https://www.linkedin.com/company/ajax-comex" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -1076,7 +1088,7 @@
                     <div class="row py-4">
                         <div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
                             <a href="index.html" class="logo pr-0 pr-lg-3">
-                                <img alt="Porto Website Template" src="img/logo-footer.png" class="opacity-5" height="33">
+                                <!--										<img alt="Porto Website Template" src="img/logo-footer.png" class="opacity-5" height="33">-->
                             </a>
                         </div>
                         <div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
@@ -1085,9 +1097,9 @@
                         <div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
                             <nav id="sub-menu">
                                 <ul>
-                                    <li><i class="fas fa-angle-right"></i><a href="page-faq.html" class="ml-1 text-decoration-none"> FAQ's</a></li>
-                                    <li><i class="fas fa-angle-right"></i><a href="sitemap.html" class="ml-1 text-decoration-none"> Sitemap</a></li>
-                                    <li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>
+                                    <!--											<li><i class="fas fa-angle-right"></i><a href="page-faq.html" class="ml-1 text-decoration-none"> FAQ's</a></li>-->
+                                    <!--											<li><i class="fas fa-angle-right"></i><a href="sitemap.html" class="ml-1 text-decoration-none"> Sitemap</a></li>-->
+                                    <!--											<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>-->
                                 </ul>
                             </nav>
                         </div>
