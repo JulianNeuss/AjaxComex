@@ -1,0 +1,64 @@
+<svg id="Iconos" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b2b2b2;
+      }
+
+      .cls-2 {
+        fill: #3c3c3b;
+      }
+
+      .cls-3 {
+        fill: #1d1d1b;
+      }
+
+      .cls-4 {
+        fill: #5db200;
+      }
+
+      .cls-5 {
+        font-size: 10.24px;
+        font-family: Helvetica-Black, Helvetica Black;
+        font-weight: 800;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #e30613;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <path class="cls-1" d="M234.8,59.6V271.14H223.06v-7H81.18v7H69.44V59.6A12.6,12.6,0,0,1,82,47H222.2A12.6,12.6,0,0,1,234.8,59.6Z"/>
+      <rect class="cls-2" x="81.18" y="74.61" width="141.88" height="189.5"/>
+      <rect class="cls-1" x="146.64" y="74.61" width="10.96" height="189.5"/>
+      <rect class="cls-2" x="151.59" y="74.61" width="1.06" height="189.5"/>
+    </g>
+    <rect class="cls-3" x="135.08" y="52.55" width="34.08" height="15.4" rx="2.05"/>
+    <rect class="cls-4" x="137.4" y="54.55" width="29.44" height="11.39" rx="1.54"/>
+    <text class="cls-5" transform="translate(148.47 63.84)">8</text>
+    <g>
+      <g>
+        <rect class="cls-6" x="141.58" y="56.55" width="1.12" height="5.31"/>
+        <polygon class="cls-6" points="140.42 61.86 142.14 63.95 143.85 61.86 140.42 61.86"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="161.55" y="58.63" width="1.12" height="5.31"/>
+        <polygon class="cls-6" points="160.39 58.63 162.11 56.55 163.82 58.63 160.39 58.63"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path class="cls-1" d="M224.37,147.19v17.65a1,1,0,0,0,1,1h7.35a1,1,0,0,0,1-1V147.19a1,1,0,0,0-1-1h-7.35A1,1,0,0,0,224.37,147.19Z"/>
+    <rect class="cls-3" x="224.99" y="147.48" width="8.13" height="17.07" rx="1.01"/>
+    <g>
+      <polygon class="cls-7" points="231.41 154.43 229.05 150.34 226.69 154.43 231.41 154.43"/>
+      <polygon class="cls-4" points="231.41 157.6 229.05 161.69 226.69 157.6 231.41 157.6"/>
+    </g>
+  </g>
+</svg>
